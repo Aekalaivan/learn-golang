@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-const h int = 10 //This is allowed, Its called global var whose scope is within this file.
+const h int = 10 //This is allowed, Its called global var whose scope is within this file and files in the same package in this case all files inside the package 'main'.
 // a:= 10 Won't work in global scope, because auto type inference is won't work in global scope in go lang.
 
 func main() {
